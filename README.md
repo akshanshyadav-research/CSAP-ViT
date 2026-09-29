@@ -13,16 +13,19 @@ A configuration-driven PyTorch implementation of **Sim-Trim + Attention-based To
 3. Run transformer blocks. At configured blocks, **ATS** averages the CLS attention row across heads and removes the least-attended patches after the full block.
 4. Normalize the remaining sequence and classify with CLS.
 
-```mermaid
-flowchart LR
-    A[Image] --> B[Patch + position embeddings + CLS]
-    B --> C[Sim-Trim: prune high cosine similarity]
-    C --> D[Transformer blocks]
-    D --> E[ATS at configured blocks]
-    E --> F[Remaining blocks and CLS classifier]
-```
+The software pipeline and pruning comparison below are extracted directly from the paper. Source details are in [assets/README.md](assets/README.md).
 
-The following images are extracted directly from the supplied manuscript, with source details in [assets/README.md](assets/README.md).
+### Software flow — Figure 3
+
+![Figure 3: Overview of the CSAP-ViT inference pipeline](assets/csap_pipeline_fig3.png)
+
+Sim-Trim reduces tokens before the encoder. ATS then refines token selection in configured transformer blocks, using CLS attention scores.
+
+### Pruning comparison — Figure 2
+
+![Figure 2: Comparison of token pruning in Sim-Trim and ATS](assets/pruning_comparison_fig2.png)
+
+The paper compares the retained image regions for Sim-Trim and ATS at pruning rates from 10% to 50%.
 
 <details>
 <summary>Paper Algorithm 1: CSAP-ViT</summary>
@@ -30,10 +33,6 @@ The following images are extracted directly from the supplied manuscript, with s
 ![CSAP-ViT algorithm from the manuscript](assets/csap_algorithm.png)
 
 </details>
-
-![Sim-Trim accelerator dataflow, Figure 4 from the manuscript](assets/simtrim_dataflow.png)
-
-The dataflow image describes the paper's hardware design. This repository supplies software experiments; no FPGA/HLS/RTL source was present in the supplied folder.
 
 ## 1. Set up the environment
 
@@ -235,7 +234,7 @@ Source: supplied manuscript, Table I. The 15/15/15/15 loss is **0.24 percentage 
 
 Original names and duplicates are retained for provenance. Review legacy cells before execution: they contain absolute paths, fixed CUDA device indices, file writes, generation loops, and IPython commands. All exports passed syntax checks; that does not establish runtime correctness.
 
-Notebook rich visual outputs and attachments were removed from publication copies to exclude embedded dataset samples and reduce file sizes. Source and textual outputs are preserved. Unreviewed raster and embedded-raster figures remain excluded; original workspace files are unchanged. The two README figures are specifically extracted diagrams from the manuscript. Datasets, downloaded weights, and the full PDF are not published here.
+Notebook rich visual outputs and attachments were removed from publication copies to exclude embedded dataset samples and reduce file sizes. Source and textual outputs are preserved. Unreviewed raster and embedded-raster figures remain excluded; original workspace files are unchanged. The README figures are extracts explicitly selected from the manuscript, including its illustrative pruning examples. Datasets, downloaded weights, and the full PDF are not published here.
 
 ## Attribution
 
