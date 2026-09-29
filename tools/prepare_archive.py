@@ -98,7 +98,7 @@ def main():
     (docs/'archive_manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')
     (docs/'excluded_files.json').write_text(json.dumps(excluded, indent=2)+'\n')
     with (docs/'logged_results.csv').open('w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['path','last_logged_accuracy_percent','processed_images','logged_records'])
+        writer = csv.DictWriter(f, lineterminator='\n', fieldnames=['path','last_logged_accuracy_percent','processed_images','logged_records'])
         writer.writeheader(); writer.writerows(results)
     families = Counter(Path(item['source']).parts[0] for item in manifest)
     (docs/'archive_index.md').write_text('# Experiment archive\n\nOriginal folder names are preserved. See `archive_manifest.json` for file hashes and Python syntax status.\n\n| Original folder/file | Archived files |\n|---|---:|\n' + '\n'.join(f'| `{name}` | {count} |' for name,count in sorted(families.items()))+'\n')

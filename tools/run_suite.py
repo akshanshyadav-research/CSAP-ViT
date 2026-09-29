@@ -44,7 +44,7 @@ def main():
         if any(rows[0][key] != rows[-1][key] for key in ['dataset_sha256','weights_sha256']):
             raise RuntimeError('Dataset or model weights changed during suite; comparison is invalid')
         with (args.output_dir/'summary.csv').open('w',newline='') as stream:
-            writer=csv.DictWriter(stream,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+            writer=csv.DictWriter(stream,fieldnames=list(rows[0]),lineterminator='\n');writer.writeheader();writer.writerows(rows)
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt

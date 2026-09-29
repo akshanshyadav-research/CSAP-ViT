@@ -1,0 +1,3 @@
+# Preserve historical formatting; whitespace checks apply to maintained code.
+experiments/** -whitespace
+python_exports/** -whitespace
