@@ -1,0 +1,5 @@
+Epoch: Average percentage_patch_drop: 10, Accuracy: 100.0, processed_image: 10, scan: 0
+Epoch: Average percentage_patch_drop: 10, Accuracy: 70.0, processed_image: 20, scan: 0
+Epoch: Average percentage_patch_drop: 10, Accuracy: 56.666666666666664, processed_image: 30, scan: 0
+Epoch: Average percentage_patch_drop: 10, Accuracy: 45.0, processed_image: 40, scan: 0
+Epoch: Average percentage_patch_drop: 10, Accuracy: 40.0, processed_image: 50, scan: 0

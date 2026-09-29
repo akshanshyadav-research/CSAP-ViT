@@ -1,0 +1,13 @@
+{
+  "model": "vit_small_patch16_224.augreg_in21k_ft_in1k",
+  "method": "csap",
+  "embedding_drop": 0.15,
+  "block_drop": 0.0,
+  "blocks": [],
+  "drop_least_similar": false,
+  "batch_size": 16,
+  "workers": 0,
+  "seed": 0,
+  "preprocessing": "timm",
+  "hash_images": true
+}

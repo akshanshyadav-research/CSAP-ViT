@@ -1,0 +1,104 @@
+[
+  {
+    "source": "research_paper.pdf",
+    "sha256": "515085414807367fbfa9b36bfa272cc647f00d98c18ae9e0bb7d9c8c7b25b4c8",
+    "bytes": 4018004,
+    "reason": "Reference paper kept outside public archive"
+  },
+  {
+    "source": "visualization_similarity/visualization_of_all_the three_techniques/output_image_with_black_border.jpeg",
+    "sha256": "aee57715fd3b32ff8e9e561ee135707aaca753c603c585303252b4d76bd80d02",
+    "bytes": 36603,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "visualization_similarity/visualization_of_all_the three_techniques/output_image_with_black_patches.jpeg",
+    "sha256": "efbca8e96a261fc0a6c0fcb08b190698abee1a1fa1c5b699b11be6a48cba0b5a",
+    "bytes": 22858,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot.svg",
+    "sha256": "365bfebb2b447f9ddfe08ba7eef8ed8fbdea0ab8e5d10a69c87d57375aca9863",
+    "bytes": 28222252,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot2222.png",
+    "sha256": "b0fe938931bb691014a4e458441df23c22441b6e1636246fc24b929252e7586a",
+    "bytes": 525677,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot22678r22.",
+    "sha256": "59cfd50a226c1c286f441f4eb4dcd16b85b4aec9390a5903d1348e33106632fe",
+    "bytes": 98823,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot22678r22.png",
+    "sha256": "bb529d94013b9414fe6f52800c7bf3dfc4210f67825563de237b01647de839d6",
+    "bytes": 105070,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot22678r22.svg",
+    "sha256": "2920391940b3ed6300154a9014be47d3fb1180f88d76a9cfb0e14b40255bc990",
+    "bytes": 3260578,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot_abs_deviation_from_mean.svg",
+    "sha256": "d2ba7d62d22cfb73407b02a537497bd6503747174af9d7459728755fa0d79e8f",
+    "bytes": 3263284,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot_abs_deviation_per_block.svg",
+    "sha256": "9c808c0cdb74e7dcfb8117f4bfaff766e2ce0926d844f2b250f20c7decac4acf",
+    "bytes": 3266545,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot_deviation_from_mean.svg",
+    "sha256": "a245baebda416d8c88c7d34ed8db9e276b24f06d13acc837a5c45674a4b29128",
+    "bytes": 3261220,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot_relative_deviation_per_block.svg",
+    "sha256": "21838c982f54e7ecd2455f40292a435c9ec93cb63d9b6879978db7a89cd5cb44",
+    "bytes": 3262032,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot_signed_deviation_per_block.svg",
+    "sha256": "e6a07cef757a2f7100140583c3053ae490525121f7109d52923c8aa283e21ac7",
+    "bytes": 3268686,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/plot_with_avg_std.svg",
+    "sha256": "e198532d509df607c9a1e9c9014a875f6d48165d2620146857f362e140a7f83a",
+    "bytes": 3269306,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/raw_patch_correlation_1000dpi.png",
+    "sha256": "ec228c4bce6502794eada634543ffedcc6b845afab179b8cfa4639e71907c0f9",
+    "bytes": 7589260,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/raw_patch_correlation_320dpi.png",
+    "sha256": "3ff72e2e7a0e54065fb21d91c1bd56f3192d1f0637faec888d3327d007242bc4",
+    "bytes": 1642854,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  },
+  {
+    "source": "vlsid results/raw_patch_correlation_500dpi.png",
+    "sha256": "8f9d9ccc9c7efdfddd6d22aad4baa66f1cdec0a423960d4545a9cfc344ff3172",
+    "bytes": 3047687,
+    "reason": "Raster or embedded-image figure requires review to avoid including dataset samples"
+  }
+]

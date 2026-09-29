@@ -1,0 +1,10 @@
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 83.2, processed_image: 1000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 83.8, processed_image: 2000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 82.3, processed_image: 3000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 81.925, processed_image: 4000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 81.89999999999999, processed_image: 5000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 82.05, processed_image: 6000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 81.92857142857143, processed_image: 7000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 81.8125, processed_image: 8000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 81.64444444444445, processed_image: 9000, scan: 0
+Epoch: Average percentage_patch_drop: 0.2, Accuracy: 82.01, processed_image: 10000, scan: 0

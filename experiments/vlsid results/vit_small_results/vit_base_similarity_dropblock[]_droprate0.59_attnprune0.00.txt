@@ -1,0 +1,2 @@
+Epoch: Average percentage_patch_drop: 0.0, Accuracy: 90.0, processed_image: 10, scan: 0
+Epoch: Average percentage_patch_drop: 0.0, Accuracy: 95.0, processed_image: 20, scan: 0

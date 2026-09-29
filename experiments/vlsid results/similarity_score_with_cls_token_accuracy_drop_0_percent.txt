@@ -1,0 +1,1 @@
+Epoch: Average percentage_patch_drop: 0, Accuracy: 0, processed_image: 0, scan: <_io.TextIOWrapper name='similarity_score_with_cls_token_accuracy_drop_0_percent.txt' mode='w' encoding='UTF-8'>
